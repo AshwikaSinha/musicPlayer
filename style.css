@@ -1,0 +1,30 @@
+.heading
+{
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+    user-select: all;
+}
+.note
+{
+  font-size: 15px;
+  color: gainsboro;
+  user-select: all;
+}
+.heading::selection
+{
+    background-color: burlywood;
+}
+.note::selection
+{
+    background-color: burlywood;
+}
+body
+{
+  background-size: cover;	
+}
+#song
+{
+  font-size: 23px;
+  margin: 15px;
+}
